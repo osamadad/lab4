@@ -28,12 +28,12 @@ public class Rectangle extends Shape {
 
     @Override
     public double calculateArea() {
-        return this.height * this.width;
+        return Math.floor((this.height * this.width))*100/100;
     }
 
     @Override
     public double calculateCircumference() {
-        return (2 * this.width) + (2 * this.height);
+        return Math.floor(((2 * this.width) + (2 * this.height)))*100/100;
     }
 
     @Override

@@ -24,7 +24,7 @@ public class Circle extends Shape {
 
     @Override
     public double calculateCircumference() {
-        return (2 * this.pi * this.radius);
+        return Math.floor((2 * this.pi * this.radius))*100/100;
     }
 
     @Override

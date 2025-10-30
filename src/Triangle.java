@@ -28,12 +28,12 @@ public class Triangle extends Shape {
 
     @Override
     public double calculateArea() {
-        return (this.base * this.height) / 2;
+        return Math.floor((this.base * this.height) / 2)*100/100;
     }
 
     @Override
     public double calculateCircumference() {
-        return this.base + (this.height * 2);
+        return Math.floor((this.base + (this.height * 2)))*100/100;
     }
 
     @Override
